@@ -10,8 +10,8 @@ class ecilaAPI {
     private $api = 'https://api.ecila.ga/';
 
     function __construct($username, $apiKey) {
-        $this->username = urlencode($username);
-        $this->apiKey = urlencode($apiKey);
+        $this->username = $username;
+        $this->apiKey = $apiKey;
     }
 
     private function getApi($params) {
