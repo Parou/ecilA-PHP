@@ -6,8 +6,8 @@ By [Alice Peters](https://alicepeters.de/)
 ## Basic usage:
 ```php
 include 'api.class.php';
-$api	=	new  ecilaAPI('YourUsername',  'YourApiKey');
-$request  =  $api->actionToPerform('Action');
+$api		=	new  ecilaAPI('YourUsername',  'YourApiKey');
+$request	=	$api->actionToPerform('Action');
 ```
 You need an API key to be able to use the API.
 You can generate a new API key on [your settings page](https://ecila.ga/settings#api).
